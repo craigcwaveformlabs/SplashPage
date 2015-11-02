@@ -6,7 +6,7 @@ $(function() {
   });
 
   $('.close-btn').click(function(){
-    $('.overlay').removeClass('is-open')
+    $('.overlay').removeClass('is-open');
   });
 
 });
