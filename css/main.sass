@@ -1,5 +1,8 @@
-$yellow: #f8d902
+// $highlight: #f8d902
+// $bg-color: black
 
+$highlight: #F8D2D2
+$bg-color: black
 
 @import 'base'
 
@@ -28,17 +31,17 @@ h1
   order: -1
 
   span
-    color: $yellow
+    color: $highlight
     display: inline-block
-    background: black
+    background: $bg-color
     margin-bottom: 5px
     padding: 0 0.2em
     transition: all 100ms ease-in-out
 
 .cta
   display: inline-block
-  background: $yellow
-  color: black
+  background: $highlight
+  color: $bg-color
   text-decoration: none
   font-size: 30px
   text-transform: uppercase
@@ -50,12 +53,12 @@ h1
     margin-left: 0.3em
 
   &:hover
-    color: $yellow
-    background: black
+    color: $highlight
+    background: $bg-color
 
   &:hover ~ h1 span
-    color: black
-    background: $yellow
+    color: $bg-color
+    background: $highlight
 
 @media (max-width: 740px)
 
@@ -83,7 +86,7 @@ h1
 
 .overlay
   position: absolute
-  background: fade-out($yellow, 0.05)
+  background: fade-out($highlight, 0.05)
   top: 0
   left: 0
   right: 0
@@ -135,7 +138,7 @@ h1
     max-width: 50%
 
     .lead
-      color: black
+      color: $bg-color
       font-size: 30px
       line-height: 1.3
     p
@@ -143,7 +146,7 @@ h1
       font-size: 18px
 
   .graphic
-    background: url(../img/presentation.png) bottom left
+    background: url(../img/icon.png) bottom left
     position: absolute
     top: 0
     right: 0
@@ -153,7 +156,7 @@ h1
   form
     position: relative
     z-index: 2
-    background: black
+    background: $bg-color
     padding: 20px
     margin: 60px -30px -30px
     display: flex
@@ -167,13 +170,13 @@ h1
 
       &:focus
         outline: none
-        box-shadow: 0px 0px 0px 2px $yellow inset
+        box-shadow: 0px 0px 0px 2px $highlight inset
 
       &[type="text"]
         flex: 1
 
       &[type="submit"]
-        background: $yellow
+        background: $highlight
         margin-left: 10px
         text-transform: uppercase
 
