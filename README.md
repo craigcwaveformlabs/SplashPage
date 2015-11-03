@@ -1,7 +1,6 @@
 # Splash Page
 
 Creating a splash page and modal pop up.
-Following along with DevTips
 
 ## Section
 
