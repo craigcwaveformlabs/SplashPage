@@ -1,6 +1,6 @@
 # Splash Page
 
-Creating a splash page and modal pop up.
+Creating a splash page and modal pop up, example for the band Miracle Strip.
 
 Splash Page
 ![Splash Page](img/screenshots/thumbnail.png "Splash Page Full Page View")
